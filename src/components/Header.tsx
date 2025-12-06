@@ -14,19 +14,19 @@ const Header = () => {
         
         <nav className="hidden md:flex items-center gap-8">
           <a href="#services" className="text-muted-foreground hover:text-foreground transition-colors">
-            Services
+            Szolgáltatások
           </a>
           <a href="#about" className="text-muted-foreground hover:text-foreground transition-colors">
-            About
+            Rólunk
           </a>
           <a href="#contact" className="text-muted-foreground hover:text-foreground transition-colors">
-            Contact
+            Kapcsolat
           </a>
         </nav>
 
         <Button variant="hero" size="default" className="gap-2">
           <Phone className="w-4 h-4" />
-          <span className="hidden sm:inline">Get a Quote</span>
+          <span className="hidden sm:inline">Árajánlat</span>
         </Button>
       </div>
     </header>
