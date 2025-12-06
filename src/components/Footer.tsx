@@ -10,7 +10,7 @@ const Footer = () => {
               <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center">
                 <Wind className="w-5 h-5 text-primary-foreground" />
               </div>
-              <span className="text-xl font-semibold">CoolAir</span>
+              <span className="text-xl font-semibold">Casario</span>
             </div>
             <p className="text-background/70 text-sm leading-relaxed">
               Az Ön megbízható partnere minden klímával kapcsolatos igényében. 
@@ -47,7 +47,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
-                info@coolair.hu
+                info@casario.hu
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 mt-0.5" />
@@ -58,7 +58,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-background/10 mt-12 pt-8 text-center text-sm text-background/50">
-          <p>© 2024 CoolAir. Minden jog fenntartva.</p>
+          <p>© 2024 Casario. Minden jog fenntartva.</p>
         </div>
       </div>
     </footer>
