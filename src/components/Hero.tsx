@@ -38,11 +38,14 @@ const Hero = () => {
             energiahatékony megoldásokkal.
           </p>
 
-          <div className="animate-fade-up-delay-3 flex flex-col sm:flex-row gap-4">
-            <Button variant="hero" size="xl">
-              Időpontfoglalás
-              <ArrowRight className="w-5 h-5" />
-            </Button>
+          <div className="animate-fade-up-delay-3 flex flex-col sm:flex-row gap-4 items-center">
+            <a href="tel:+36300129403">
+              <Button variant="hero" size="xl" className="gap-2">
+                Időpontfoglalás
+                <ArrowRight className="w-5 h-5" />
+              </Button>
+            </a>
+            
             <a href="#services">
               <Button variant="heroOutline" size="xl">
                 Szolgáltatásaink

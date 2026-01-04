@@ -24,7 +24,7 @@ const Header = () => {
           </a>
         </nav>
 
-        <a href="tel:+36123456789">
+        <a href="tel:+36300129403">
           <Button variant="hero" size="default" className="gap-2">
             <Phone className="w-4 h-4" />
             <span className="hidden sm:inline">Árajánlat</span>
