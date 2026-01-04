@@ -7,9 +7,9 @@ const Hero = () => {
     <section className="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src={heroImage} 
-          alt="Modern nappali klímával" 
+        <img
+          src={heroImage}
+          alt="Modern nappali klímával"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/40" />
@@ -33,8 +33,8 @@ const Hero = () => {
           </h1>
 
           <p className="animate-fade-up-delay-2 text-lg sm:text-xl text-muted-foreground max-w-2xl mb-10 leading-relaxed">
-            Szakértő klíma telepítés, karbantartás és javítás. 
-            Otthonát egész évben kényelmessé tesszük megbízható, 
+            Szakértő klíma telepítés, karbantartás és javítás.
+            Otthonát egész évben kényelmessé tesszük megbízható,
             energiahatékony megoldásokkal.
           </p>
 
@@ -45,8 +45,14 @@ const Hero = () => {
                 <ArrowRight className="w-5 h-5" />
               </Button>
             </a>
-            
-            <a href="#services">
+
+            <a
+              href="#services"
+              onClick={(e) => {
+                e.preventDefault();
+                document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' });
+              }}
+            >
               <Button variant="heroOutline" size="xl">
                 Szolgáltatásaink
               </Button>

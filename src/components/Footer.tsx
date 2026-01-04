@@ -13,7 +13,7 @@ const Footer = () => {
               <span className="text-xl font-semibold">Casario</span>
             </div>
             <p className="text-background/70 text-sm leading-relaxed">
-              Az Ön megbízható partnere minden klímával kapcsolatos igényében. 
+              Az Ön megbízható partnere minden klímával kapcsolatos igényében.
               2025 óta biztosítunk kényelmes otthonokat és irodákat.
             </p>
           </div>
@@ -21,10 +21,10 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Szolgáltatások</h4>
             <ul className="space-y-2 text-sm text-background/70">
-              <li><a href="#services" className="hover:text-background transition-colors">Telepítés</a></li>
-              <li><a href="#services" className="hover:text-background transition-colors">Karbantartás</a></li>
-              <li><a href="#services" className="hover:text-background transition-colors">Javítás</a></li>
-              <li><a href="#services" className="hover:text-background transition-colors">Termékek</a></li>
+              <li><a href="#services" className="hover:text-background transition-colors" onClick={(e) => { e.preventDefault(); document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' }); }}>Telepítés</a></li>
+              <li><a href="#services" className="hover:text-background transition-colors" onClick={(e) => { e.preventDefault(); document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' }); }}>Karbantartás</a></li>
+              <li><a href="#services" className="hover:text-background transition-colors" onClick={(e) => { e.preventDefault(); document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' }); }}>Javítás</a></li>
+              <li><a href="#services" className="hover:text-background transition-colors" onClick={(e) => { e.preventDefault(); document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' }); }}>Termékek</a></li>
             </ul>
           </div>
 
@@ -33,7 +33,7 @@ const Footer = () => {
             <ul className="space-y-2 text-sm text-background/70">
               <li><a href="#" className="hover:text-background transition-colors">Rólunk</a></li>
               <li><a href="#" className="hover:text-background transition-colors">Csapatunk</a></li>
-  
+
             </ul>
           </div>
 
